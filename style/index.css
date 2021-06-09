@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+
+body {
+  background: pink;
+}
+#navbar {
+  display: grid;
+  grid-template-columns: 3fr 6fr 1fr 1fr 1fr 1fr;
+  background-color: rgba(255, 255, 255, 0.274);
+  color: white;
+}
+
+#title {
+  padding-top: 1vh;
+  padding-bottom: 1vh;
+  padding-left: 0.5vw;
+  font-family: "Righteous", cursive;
+  font-size: 1.7vw;
+}
+.navbar-button {
+  margin-top: auto;
+  margin-bottom: auto;
+  border-top-left-radius: 10px;
+  border-left: 4px solid green;
+  padding-top: 1vh;
+  padding-bottom: 1vh;
+  padding-left: 0.5vw;
+  font-family: "Righteous", cursive;
+  font-size: 1.2vw;
+}
+.navbar-button:hover {
+  cursor: pointer;
+}
