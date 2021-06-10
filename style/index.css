@@ -31,3 +31,20 @@ body {
 .navbar-button:hover {
   cursor: pointer;
 }
+#about-me-section {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+#about-me-info {
+  display: grid;
+  grid-template-columns: 40% 60%;
+}
+#personal-info {
+  display: grid;
+}
+#head-shot {
+  margin-left: 40%;
+  margin-right: 10%;
+  width: 50%;
+  border-radius: 20%;
+}
