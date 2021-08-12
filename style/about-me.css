@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+#about-me-section {
+  margin-left: 5%;
+  margin-right: 5%;
+  display: none;
+}
+#about-me-info {
+  display: grid;
+  margin-top: 10vh;
+  grid-template-columns: 40% 60%;
+}
+#personal-info {
+  display: grid;
+  font-family: "Righteous", cursive;
+  font-size: 2vw;
+}
+#personal-info span {
+  display: block;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+#personal-name {
+  font-size: 3vw;
+}
+#head-shot {
+  margin-left: 40%;
+  margin-right: 10%;
+  width: 50%;
+  border-radius: 20%;
+}
+#contact-section {
+  display: none;
+}
+#about-me-tabs {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  height: 10vh;
+  width: 100%;
+}
+.about-me-button {
+  margin-top: auto;
+  margin-bottom: auto;
+  border-top-left-radius: 20px;
+  border-left: 4px solid rgb(60, 93, 204);
+  padding-top: 1vh;
+  padding-bottom: 1vh;
+  padding-left: 0.5vw;
+  font-family: "Righteous", cursive;
+  font-size: 2vw;
+  background-image: linear-gradient(
+    to right,
+    rgb(214, 240, 255),
+    rgb(214, 240, 255),
+    rgba(255, 255, 255, 0.158)
+  );
+}
+.about-me-button:hover {
+  cursor: pointer;
+}
+.about-me-button-left {
+  width: 105%;
+}
+
+.about-me-section-info {
+  display: none;
+}

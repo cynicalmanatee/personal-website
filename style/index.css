@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
 
 body {
-  background: pink;
+  background: rgba(31, 116, 212, 0.63);
 }
 #navbar {
   display: grid;
@@ -11,6 +11,13 @@ body {
 }
 
 #title {
+  padding-top: 1vh;
+  padding-bottom: 1vh;
+  padding-left: 0.5vw;
+  font-family: "Righteous", cursive;
+  font-size: 1.7vw;
+}
+#main-bar {
   padding-top: 1vh;
   padding-bottom: 1vh;
   padding-left: 0.5vw;
@@ -31,20 +38,6 @@ body {
 .navbar-button:hover {
   cursor: pointer;
 }
-#about-me-section {
-  margin-left: 5%;
-  margin-right: 5%;
-}
-#about-me-info {
-  display: grid;
-  grid-template-columns: 40% 60%;
-}
-#personal-info {
-  display: grid;
-}
-#head-shot {
-  margin-left: 40%;
-  margin-right: 10%;
-  width: 50%;
-  border-radius: 20%;
+#projects-section {
+  display: none;
 }
