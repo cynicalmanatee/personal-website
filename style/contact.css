@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+
+#contact-title {
+  margin: auto;
+  text-align: center;
+  font-family: "Righteous", cursive;
+  font-size: 2vw;
+}
+#contact-icons {
+  display: grid;
+  height: 15vh;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  width: 40vw;
+  margin: auto;
+}
+.contact-bar-icon {
+  height: 15vh;
+  margin: auto;
+}
+.contact-bar-icon:hover {
+  cursor: pointer;
+}
+#contact-information {
+  display: grid;
+  grid-template-columns: 5fr 1fr;
+  height: 15vh;
+  width: 80vw;
+  margin: auto;
+}
+#contact-url-text {
+  font-size: 2.5vw;
+  text-align: center;
+}
+#contact-information-icon {
+  height: 15vh;
+}
