@@ -5,7 +5,6 @@ $("document").ready(function () {
     $("#about-me-content").load("/html/about-me.html");
     $("#contact-content").load("/html/contact.html");
   });
-
   let homeTab = $("#home");
   $(homeTab).click(function () {
     changePage("home");
