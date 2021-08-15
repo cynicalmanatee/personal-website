@@ -1,12 +1,11 @@
 $("document").ready(function () {
   $(function () {
-    $("#home-content").load("/html/home.html");
-    $("#projects-content").load("/html/projects.html");
-    $("#about-me-content").load("/html/about-me.html");
-    $("#contact-content").load("/html/contact.html");
+    $("#home-content").load("../html/home.html");
+    $("#projects-content").load("../html/projects.html");
+    $("#about-me-content").load("../html/about-me.html");
+    $("#contact-content").load("./html/contact.html");
   });
-  let homeTab = $("#home");
-  $(homeTab).click(function () {
+  $("#home").click(function () {
     changePage("home");
   });
   $("#projects").click(function () {
@@ -43,4 +42,6 @@ $("document").ready(function () {
         break;
     }
   }
+
+  changePage("projects");
 });

@@ -1,18 +1,18 @@
 $("document").ready(function () {
   $("#about-me-skill").click(function () {
-    changePage("skill");
+    chageAboutPage("skill");
   });
   $("#about-me-education").click(function () {
-    changePage("education");
+    chageAboutPage("education");
   });
   $("#about-me-workexp").click(function () {
-    changePage("workexp");
+    chageAboutPage("workexp");
   });
   $("#about-me-interest").click(function () {
-    changePage("interest");
+    chageAboutPage("interest");
   });
 
-  function changePage(page) {
+  function chageAboutPage(page) {
     $("#about-me-section-skill").css("display", "none");
     $("#about-me-section-education").css("display", "none");
     $("#about-me-section-workexp").css("display", "none");
@@ -49,5 +49,5 @@ $("document").ready(function () {
     }
   }
 
-  changePage("skill");
+  chageAboutPage("skill");
 });

@@ -1,0 +1,57 @@
+.projects-card {
+  width: 80vw;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  border: 3px solid white;
+  border-top-left-radius: 5vh;
+  box-shadow: -3vh 3vh rgba(0, 0, 0, 0.527);
+  margin-bottom: 5vh;
+}
+.projects-title {
+  height: 35vh;
+}
+.projects-media {
+  height: 30vh;
+}
+.projects-name {
+  font-size: 4vh;
+  text-align: center;
+  display: grid;
+  grid-template-columns: 6fr 1fr;
+  height: 5vh;
+}
+.projects-name img {
+  height: 5vh;
+  display: block;
+  margin: auto;
+}
+.projects-info {
+  height: 35vh;
+  display: grid;
+  grid-template-rows: 1fr 5fr;
+}
+.projects-card-navbar {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.projects-card-navbar-tab {
+  margin-top: auto;
+  margin-bottom: auto;
+  border-top-left-radius: 20px;
+  border-left: 4px solid rgb(60, 93, 204);
+  padding-top: 1vh;
+  padding-bottom: 1vh;
+  padding-left: 0.5vw;
+  font-family: "Righteous", cursive;
+  font-size: 2vw;
+  background-image: linear-gradient(
+    to right,
+    rgb(214, 240, 255),
+    rgb(214, 240, 255),
+    rgba(255, 255, 255, 0.158)
+  );
+}
+.projects-card-navbar-tab-left {
+  width: 105%;
+}
