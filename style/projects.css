@@ -13,6 +13,12 @@
   text-align: center;
   color: white;
   text-decoration: underline 3px solid white;
+
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -o-user-select: none;
+  user-select: none;
 }
 .projects-card {
   width: 80vw;
@@ -78,6 +84,11 @@
     rgba(255, 255, 255, 0.158)
   );
   color: rgba(53, 45, 170, 0.521);
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -o-user-select: none;
+  user-select: none;
 }
 .projects-card-navbar-tab:hover {
   cursor: pointer;
