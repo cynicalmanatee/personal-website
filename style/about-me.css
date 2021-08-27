@@ -10,18 +10,8 @@
   grid-template-columns: 40% 60%;
 }
 #personal-info {
-  display: grid;
-  font-family: "Righteous", cursive;
-  font-size: 2vw;
 }
-#personal-info span {
-  display: block;
-  margin-top: auto;
-  margin-bottom: auto;
-}
-#personal-name {
-  font-size: 3vw;
-}
+
 #head-shot {
   margin-left: 40%;
   margin-right: 10%;
