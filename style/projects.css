@@ -104,3 +104,30 @@
 .projects-info-display {
   margin: 2%;
 }
+
+.project-card-techstack-panel {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  height: auto;
+}
+
+.icon-container {
+  height: 8vh;
+  margin-left: 5%;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.icon {
+  height: 95%;
+  margin: auto;
+}
+
+.projects-techstack-category {
+  font-size: 2.5rem;
+  margin-top: auto;
+  margin-bottom: auto;
+  color: white;
+  font-family: "Righteous", cursive;
+  border-right: 3px solid white;
+}

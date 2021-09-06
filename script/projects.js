@@ -38,7 +38,7 @@ $("document").ready(function () {
 
     switch (page) {
       case "tech":
-        $("#projects-snaccbook-info-tech").css("display", "block");
+        $("#projects-snaccbook-info-tech").css("display", "grid");
         $("#projects-card-navbar-3").css(
           "grid-template-columns",
           "2fr 1fr 1fr"
@@ -73,7 +73,7 @@ $("document").ready(function () {
 
     switch (page) {
       case "tech":
-        $("#projects-scoutninja-info-tech").css("display", "block");
+        $("#projects-scoutninja-info-tech").css("display", "grid");
         $("#projects-card-navbar-2").css(
           "grid-template-columns",
           "2fr 1fr 1fr"
@@ -108,7 +108,7 @@ $("document").ready(function () {
 
     switch (page) {
       case "tech":
-        $("#projects-jobhuntsim-info-tech").css("display", "block");
+        $("#projects-jobhuntsim-info-tech").css("display", "grid");
         $("#projects-card-navbar-1").css(
           "grid-template-columns",
           "2fr 1fr 1fr"
