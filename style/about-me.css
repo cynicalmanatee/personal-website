@@ -1,21 +1,38 @@
 @import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lacquer&display=swap");
 #about-me-section {
-  margin-left: 5%;
-  margin-right: 5%;
+  margin-left: 5vw;
+  margin-right: 5vw;
   display: none;
 }
+#profile-picture {
+  display: flex;
+}
+
 #about-me-info {
   display: grid;
-  margin-top: 10vh;
+  margin-top: 5vh;
   grid-template-columns: 40% 60%;
 }
 #personal-info {
+  font-size: 2rem;
+  font-family: "Lacquer", cursive;
+  font-weight: bolder;
+  color: white;
+  text-align: justify;
+  text-shadow: 2px 2px rgba(0, 0, 0, 0.493);
+}
+.bigger {
+  font-size: 2.5rem;
+  text-shadow: 2px 2px rgba(0, 0, 0, 0.493);
+}
+.right {
+  text-align: right;
 }
 
 #head-shot {
-  margin-left: 40%;
-  margin-right: 10%;
-  width: 50%;
+  width: 70%;
+  margin: auto;
   border-radius: 20%;
 }
 #contact-section {
@@ -28,12 +45,11 @@
   width: 100%;
 }
 .about-me-button {
-  margin-top: auto;
-  margin-bottom: auto;
+  display: flex;
+  height: 100%;
   border-top-left-radius: 20px;
   border-left: 4px solid rgb(60, 93, 204);
-  padding-top: 1vh;
-  padding-bottom: 1vh;
+  color: rgb(115, 174, 223);
   padding-left: 0.5vw;
   font-family: "Righteous", cursive;
   font-size: 2vw;
@@ -43,14 +59,21 @@
     rgb(214, 240, 255),
     rgba(255, 255, 255, 0.158)
   );
+  text-shadow: 2px 2px rgba(0, 0, 0, 0.493);
   -webkit-user-select: none;
   -khtml-user-select: none;
   -moz-user-select: none;
   -o-user-select: none;
   user-select: none;
 }
+.about-me-button-text {
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 5%;
+}
 .about-me-button:hover {
   cursor: pointer;
+  color: rgba(57, 215, 255, 0.89);
 }
 .about-me-button-left {
   width: 105%;
@@ -58,4 +81,191 @@
 
 .about-me-section-info {
   display: none;
+}
+#about-me-section-skill {
+  height: 70vh;
+  display: grid;
+  grid-template-columns: 1fr 5fr;
+  grid-template-rows: 15vh 15vh 15vh 1fr;
+  padding-left: 15%;
+  padding-right: 15%;
+  background-color: rgba(255, 255, 255, 0.158);
+
+  margin-bottom: 5vh;
+}
+.about-me-skills-category-title {
+  height: 10vh;
+  font-size: 2.5rem;
+  margin-top: 5vh;
+  font-family: "Righteous", cursive;
+  color: white;
+  text-shadow: 2px 2px rgba(0, 0, 0, 0.493);
+}
+.about-me-skills-icons {
+  height: 10vh;
+  margin-left: 5%;
+  margin-top: 5vh;
+  margin-bottom: auto;
+  display: flex;
+}
+.about-me-icon {
+  height: 95%;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-right: 2vw;
+}
+#about-me-section-education {
+  background-color: rgba(255, 255, 255, 0.158);
+  height: 70vh;
+}
+#about-me-education-timeline {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 2fr 1fr;
+  margin-top: 4vh;
+  height: 15vh;
+}
+
+#BCIT {
+  grid-row-start: 1;
+  grid-column: 11;
+  margin: auto;
+
+  text-align: center;
+  font-size: 2rem;
+}
+#UBC {
+  grid-row-start: 1;
+  grid-column: 2 / span 5;
+  margin: auto;
+
+  text-align: center;
+  font-size: 2rem;
+}
+#BNSS {
+  margin: auto;
+  text-align: center;
+  font-size: 2rem;
+}
+.education-marker {
+  text-shadow: 2px 2px rgba(0, 0, 0, 0.493);
+  background-color: rgba(166, 211, 248, 0.63);
+  width: 95%;
+  border: 3px solid white;
+  color: white;
+  font-family: "Righteous", cursive;
+}
+.education-marker:hover {
+  cursor: pointer;
+  background-color: rgba(255, 255, 255, 0.623);
+}
+
+.year-marker {
+  grid-row: 2;
+  margin-top: auto;
+  height: 4vh;
+  border-top: 2px solid white;
+  border-left: 2px solid white;
+  border-right: 2px solid white;
+  text-align: center;
+  color: white;
+  text-shadow: 2px 2px rgba(0, 0, 0, 0.493);
+  font-family: "Press Start 2P", cursive;
+}
+.about-me-education-details {
+  padding-left: 15%;
+  padding-right: 15%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  background-color: rgba(255, 255, 255, 0.377);
+
+  color: white;
+  font-size: 2rem;
+  font-family: "Righteous", cursive;
+  text-shadow: 2px 2px rgba(0, 0, 0, 0.493);
+}
+.duration {
+  text-align: right;
+}
+.study {
+  grid-column: 1 / span 2;
+  text-align: center;
+}
+#about-me-section-interest {
+  display: grid;
+  grid-template-rows: 29.45vw 29.45vw;
+  grid-template-columns: 29.45vw 29.45vw 29.45vw;
+  background-color: rgba(255, 255, 255, 0.158);
+}
+.about-me-interest-box {
+  width: 95%;
+  height: 95%;
+  margin: auto;
+  box-shadow: -2vh 2vh rgba(0, 0, 0, 0.527);
+  background-color: rgba(255, 255, 255, 0.527);
+}
+
+#about-me-section-workexp {
+  background-color: rgba(255, 255, 255, 0.158);
+  height: 90vh;
+}
+#about-me-work-timeline {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 2fr 1fr;
+  margin-top: 4vh;
+  height: 15vh;
+}
+.work-marker {
+  text-shadow: 2px 2px rgba(0, 0, 0, 0.493);
+  background-color: rgba(166, 211, 248, 0.63);
+  width: 95%;
+  border: 3px solid white;
+  color: white;
+  font-family: "Righteous", cursive;
+}
+.work-marker:hover {
+  cursor: pointer;
+  background-color: rgba(255, 255, 255, 0.623);
+}
+
+#weshar {
+  grid-column: 7 / span 3;
+  transform: translateX(15%);
+  margin: auto;
+  text-align: center;
+  font-size: 2rem;
+}
+#tutor {
+  grid-column: 5 / span 2;
+  margin-top: auto;
+  margin-bottom: auto;
+  width: 90%;
+  text-align: center;
+  font-size: 2rem;
+}
+.about-me-work-details {
+  padding-left: 15%;
+  padding-right: 15%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  background-color: rgba(255, 255, 255, 0.377);
+
+  color: white;
+  font-size: 2rem;
+  font-family: "Righteous", cursive;
+  text-shadow: 2px 2px rgba(0, 0, 0, 0.493);
+}
+.job-duration {
+  text-align: right;
+}
+.job-location {
+  grid-column: 1 / span 2;
+  text-align: center;
+}
+.job-title {
+  grid-column: 1 / span 2;
+  text-align: center;
 }

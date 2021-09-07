@@ -4,12 +4,12 @@
       <img id="head-shot" src="./img/Headshot.jpg" />
     </div>
     <div id="personal-info">
-      <p>Hello! I'm Harry.</p>
+      <p class="bigger">Hello! I'm Harry.</p>
       <p>
         I am a student at BCIT studying Computer Systems Technology. Currently
         in his first year, and looking for a co-op work placement.
       </p>
-      <p>A Little About Me</p>
+      <p class="bigger right">A Little About Me</p>
       <p>
         I initially studied at UBC for an undergraduate science degree. Having
         workiing in a laboratory for 3 years, I found myself gravitating towards
@@ -25,82 +25,152 @@
   <div id="bio"></div>
   <div id="about-me-tabs">
     <div id="about-me-skill" class="about-me-button about-me-button-left">
-      Skills
+      <span class="about-me-button-text">Skills</span>
     </div>
     <div id="about-me-education" class="about-me-button about-me-button-left">
-      Education
+      <span class="about-me-button-text">Education</span>
     </div>
     <div id="about-me-workexp" class="about-me-button about-me-button-left">
-      Work Experience
+      <span class="about-me-button-text">Work Experience</span>
     </div>
     <div id="about-me-interest" class="about-me-button">
-      Interests
+      <span class="about-me-button-text">Interests</span>
     </div>
   </div>
   <div id="about-me-sections">
     <div id="about-me-section-skill" class="about-me-section-info">
-      <ul>
-        Frontend Development
-        <li>HTML/CSS</li>
-        <li>JavaScript</li>
-        <li>Jquery</li>
-        <li>BootStrap</li>
-        <li>React</li>
-      </ul>
-      <ul>
-        Backend Developement
-        <li>Node.js</li>
-        <li>mySQL</li>
-        <li>Firebase</li>
-      </ul>
-      <ul>
+      <div class="about-me-skills-category-title no-select">
+        Front-End Developement
+      </div>
+      <div class="about-me-skills-icons">
+        <img class="about-me-icon" src="../img/html.png" title="HTML" />
+        <img class="about-me-icon" src="../img/css.png" title="CSS" />
+        <img class="about-me-icon" src="../img/jQuery.png" title="jQuery" />
+        <img class="about-me-icon" src="../img/react.png" title="React" />
+        <img
+          class="about-me-icon"
+          src="../img/bootstrap.png"
+          title="Bootstrap"
+        />
+      </div>
+      <div class="about-me-skills-category-title no-select">
+        Back-End Developement
+      </div>
+      <div class="about-me-skills-icons">
+        <img class="about-me-icon" src="../img/node.png" title="Node.js" />
+        <img class="about-me-icon" src="../img/mySQL.png" title="mySQL" />
+        <img class="about-me-icon" src="../img/firebase.png" title="Firebase" />
+      </div>
+      <div class="about-me-skills-category-title no-select">
         Coding Languages
-        <li>Java</li>
-        <li>C++</li>
-        <li>C#</li>
-      </ul>
-      <ul>
-        Misc Programs
-        <li>Git</li>
-        <li>GitHub</li>
-        <li>Unity</li>
-        <li>Blender</li>
-        <li>Photoshop</li>
-        <li>Sony Vegas</li>
-        <li>Excel</li>
-      </ul>
+      </div>
+      <div class="about-me-skills-icons">
+        <img class="about-me-icon" src="../img/java.png" title="Java" />
+        <img
+          class="about-me-icon"
+          src="../img/javascript.png"
+          title="Javascrip"
+        />
+        <img class="about-me-icon" src="../img/cpp.png" title="C++" />
+        <img class="about-me-icon" src="../img/csharp.png" title="C#" />
+      </div>
+      <div class="about-me-skills-category-title no-select">
+        Misc Applications
+      </div>
+      <div class="about-me-skills-icons">
+        <img class="about-me-icon" src="../img/git.png" title="Git" />
+        <img
+          class="about-me-icon"
+          src="../img/GitHub-Mark-120px-plus.png"
+          title="GitHub"
+        />
+        <img class="about-me-icon" src="../img/unity.png" title="Unity" />
+        <img class="about-me-icon" src="../img/blender.png" title="Blender" />
+        <img
+          class="about-me-icon"
+          src="../img/photoshop.png"
+          title="Photoshop"
+        />
+        <img class="about-me-icon" src="../img/Vegas.png" title="Vegas" />
+        <img class="about-me-icon" src="../img/excel.png" title="Excel" />
+      </div>
     </div>
     <div id="about-me-section-education" class="about-me-section-info">
-      <p>British Columbia Institute of Technology</p>
-      <p>Duration: 2021 January - Ongoing</p>
-      <p>Computer Systems Technology - Diploma</p>
-      <p>University of British Columbia</p>
-      <p>Duration: 2012 September - 2017 June</p>
-      <p>Bachelor's of Science, Chemistry - Degree</p>
-      <p>Burnaby North Secondary School</p>
-      <p>Duration: 2007 September - 2012 June</p>
-      <p>Highschool - Diploma</p>
+      <div id="about-me-education-timeline">
+        <div class="education-marker" id="BCIT">BCIT --&gt</div>
+        <div class="education-marker" id="UBC">UBC</div>
+        <div class="education-marker" id="BNSS">&lt;-- BNSS</div>
+
+        <div class="year-marker">2011</div>
+        <div class="year-marker">2012</div>
+        <div class="year-marker">2013</div>
+        <div class="year-marker">2014</div>
+        <div class="year-marker">2015</div>
+        <div class="year-marker">2016</div>
+        <div class="year-marker">2017</div>
+        <div class="year-marker">2018</div>
+        <div class="year-marker">2019</div>
+        <div class="year-marker">2020</div>
+        <div class="year-marker">2021</div>
+      </div>
+      <div id="about-me-education-info">
+        <div id="about-me-bcit" class="about-me-education-details">
+          <p class="institution">British Columbia Institute of Technology</p>
+          <p class="duration">Duration: 2021 January - Ongoing</p>
+          <p class="study">Computer Systems Technology - Diploma</p>
+        </div>
+        <div id="about-me-ubc" class="about-me-education-details">
+          <p class="institution">University of British Columbia</p>
+          <p class="duration">Duration: 2012 September - 2017 June</p>
+          <p class="study">Bachelor's of Science, Chemistry - Degree</p>
+        </div>
+        <div id="about-me-bnss" class="about-me-education-details">
+          <p class="institution">Burnaby North Secondary School</p>
+          <p class="duration">Duration: 2007 September - 2012 June</p>
+          <p class="study">Highschool - Diploma</p>
+        </div>
+      </div>
     </div>
     <div id="about-me-section-workexp" class="about-me-section-info">
-      <p>Wes-Har Asbestos Laboratory and Analysis</p>
-      <p>Duration: 2017 July - 2020 April</p>
-      <p>Position: Lead Microscopist/Analyst</p>
-      <p>Location: Richmond</p>
-      <p>Home Tutor</p>
-      <p>Duration: 2015 January - 2016 september</p>
-      <p>Location: West Vancouver</p>
+      <div id="about-me-work-timeline">
+        <div class="work-marker" id="tutor">Home Tutor</div>
+        <div class="work-marker" id="weshar">Wes-Har Asbestos Lab</div>
+
+        <div class="year-marker">2011</div>
+        <div class="year-marker">2012</div>
+        <div class="year-marker">2013</div>
+        <div class="year-marker">2014</div>
+        <div class="year-marker">2015</div>
+        <div class="year-marker">2016</div>
+        <div class="year-marker">2017</div>
+        <div class="year-marker">2018</div>
+        <div class="year-marker">2019</div>
+        <div class="year-marker">2020</div>
+        <div class="year-marker">2021</div>
+      </div>
+      <div id="about-me-work-info">
+        <div id="about-me-weshar" class="about-me-work-details">
+          <p class="job-company">Wes-Har Asbestos Laboratory and Analysis</p>
+          <p class="job-duration">Duration: 2017 July - 2020 April</p>
+          <p class="job-location">Richmond, BC</p>
+          <p class="job-title">Lead Microscopist/Analyst</p>
+        </div>
+        <div id="about-me-tutor" class="about-me-work-details">
+          <p class="job-company">Home Tutor</p>
+          <p class="job-duration">Duration: 2015 January - 2016 september</p>
+          <p class="job-location">Location: West Vancouver, BC</p>
+        </div>
+      </div>
     </div>
     <div id="about-me-section-interest" class="about-me-section-info">
-      <ul>
-        <li>Music</li>
-        <li>Model Building</li>
-        <li>Cooking</li>
-        <li>Table-top Games</li>
-        <li>Video Games</li>
-        <li>Photo/Video Editing</li>
-      </ul>
+      <div class="about-me-interest-box">Music</div>
+      <div class="about-me-interest-box">Model Building</div>
+      <div class="about-me-interest-box">Cooking</div>
+      <div class="about-me-interest-box">Table-top Games</div>
+      <div class="about-me-interest-box">Video Games</div>
+      <div class="about-me-interest-box">Photo/Video Editing</div>
     </div>
   </div>
-</div>
 
-<script src="/script/about-me.js"></script>
+  <script src="/script/about-me.js"></script>
+</div>

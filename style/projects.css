@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata&display=swap");
 #projects-section {
   margin-top: 5%;
 }
@@ -83,7 +84,7 @@
     rgb(214, 240, 255),
     rgba(255, 255, 255, 0.158)
   );
-  color: rgba(53, 45, 170, 0.521);
+  color: rgb(115, 174, 223);
   -webkit-user-select: none;
   -khtml-user-select: none;
   -moz-user-select: none;
@@ -130,4 +131,37 @@
   color: white;
   font-family: "Righteous", cursive;
   border-right: 3px solid white;
+}
+.projects-card-background {
+  font-size: 1.5rem;
+  color: white;
+  font-family: "Inconsolata", monospace;
+  text-align: justify;
+}
+.projects-card-background-time {
+  font-size: 2rem;
+  font-weight: bolder;
+}
+.projects-card-contributors {
+  color: white;
+  font-family: "Righteous", cursive;
+  font-size: 2rem;
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  height: 100%;
+}
+
+.projects-card-contributors a {
+  text-decoration: none;
+  color: white;
+  margin: 2%;
+  padding-left: 15%;
+  width: 40%;
+}
+
+.projects-card-contributors a:hover {
+  text-decoration: none;
+  color: rgb(163, 163, 163);
+  margin: 2%;
+  padding-left: 15%;
 }

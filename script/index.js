@@ -25,7 +25,7 @@ $("document").ready(function () {
     $("#contact-section").css("display", "none");
     switch (page) {
       case "home":
-        $("#home-section").css("display", "block");
+        $("#home-section").css("display", "flex");
         console.log("home clicked");
         break;
       case "projects":

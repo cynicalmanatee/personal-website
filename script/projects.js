@@ -56,7 +56,7 @@ $("document").ready(function () {
         $("#projects-snaccbook-info-about").fadeIn(500);
         break;
       case "contributors":
-        $("#projects-snaccbook-info-contributors").css("display", "block");
+        $("#projects-snaccbook-info-contributors").css("display", "grid");
         $("#projects-card-navbar-3").css(
           "grid-template-columns",
           "1fr 1fr 2fr"
@@ -91,7 +91,7 @@ $("document").ready(function () {
         $("#projects-scoutninja-info-about").fadeIn(500);
         break;
       case "contributors":
-        $("#projects-scoutninja-info-contributors").css("display", "block");
+        $("#projects-scoutninja-info-contributors").css("display", "grid");
         $("#projects-card-navbar-2").css(
           "grid-template-columns",
           "1fr 1fr 2fr"
@@ -126,7 +126,7 @@ $("document").ready(function () {
         $("#projects-jobhuntsim-info-about").fadeIn(500);
         break;
       case "contributors":
-        $("#projects-jobhuntsim-info-contributors").css("display", "block");
+        $("#projects-jobhuntsim-info-contributors").css("display", "grid");
         $("#projects-card-navbar-1").css(
           "grid-template-columns",
           "1fr 1fr 2fr"
