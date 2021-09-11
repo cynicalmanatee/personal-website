@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -13,27 +12,38 @@
     <link rel="stylesheet" href="style/home.css" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
-</head>
+  </head>
 
-<body>
+  <body>
     <div id="title-section">
-        <!--Nav Bar Section-->
-        <div id="navbar">
-            <div id="title">./Dev/Harry He</div>
-            <div id="main-bar">(Work in Progress.asdasd..)</div>
-            <div id="home" class="navbar-button">Home</div>
-            <div id="projects" class="navbar-button">Projects</div>
-            <div id="about-me" class="navbar-button">About Me</div>
-            <div id="contact" class="navbar-button">Contact</div>
+      <!--Nav Bar Section-->
+      <div id="navbar">
+        <div id="title">./Dev/Harry He</div>
+        <div id="main-bar">(Work in Progress.asdasd..)</div>
+        <img
+          src="./img/hamburger.png"
+          class="hamburger-menu"
+          id="outside-hamburger"
+        />
+        <div id="navbar-navigation-buttons">
+          <img
+            src="./img/hamburger.png"
+            class="hamburger-menu"
+            id="inside-hamburger"
+          />
+          <div id="home" class="navbar-button no-select">Home</div>
+          <div id="projects" class="navbar-button no-select">Projects</div>
+          <div id="about-me" class="navbar-button no-select">About Me</div>
+          <div id="contact" class="navbar-button no-select">Contact</div>
         </div>
+      </div>
 
-        <div id="home-content"></div>
-        <div id="projects-content"></div>
-        <div id="about-me-content"></div>
-        <div id="contact-content"></div>
+      <div id="home-content"></div>
+      <div id="projects-content"></div>
+      <div id="about-me-content"></div>
+      <div id="contact-content"></div>
     </div>
 
     <script src="/script/index.js"></script>
-</body>
-
+  </body>
 </html>

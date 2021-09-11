@@ -17,6 +17,13 @@ $("document").ready(function () {
   $("#contact").click(function () {
     changePage("contact");
   });
+  $("#inside-hamburger").click(() => {
+    hideHamburger();
+  });
+
+  $("#outside-hamburger").click(() => {
+    showHamburger();
+  });
 
   function changePage(page) {
     $("#home-section").css("display", "none");
@@ -26,22 +33,38 @@ $("document").ready(function () {
     switch (page) {
       case "home":
         $("#home-section").css("display", "flex");
+        hideHamburger();
         console.log("home clicked");
         break;
       case "projects":
         $("#projects-section").css("display", "block");
+        hideHamburger();
         console.log("projects clicked");
         break;
       case "about-me":
         $("#about-me-section").css("display", "block");
+        hideHamburger();
         console.log("about me clicked");
         break;
       case "contact":
         $("#contact-section").css("display", "block");
+        hideHamburger();
         console.log("contact clicked");
         break;
     }
   }
+  function showHamburger() {
+    if ($(window).width() <= 860) {
+      $("#navbar-navigation-buttons").css("display", "grid");
+      $("#outside-hamburger").css("display", "none");
+    }
+  }
+  function hideHamburger() {
+    if ($(window).width() <= 860) {
+      $("#navbar-navigation-buttons").css("display", "none");
 
-  changePage("projects");
+      $("#outside-hamburger").css("display", "block");
+    }
+  }
+  hideHamburger();
 });
