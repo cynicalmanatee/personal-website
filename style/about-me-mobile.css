@@ -3,11 +3,15 @@
     display: none;
   }
 
+  #mobile-profile-picture {
+    display: flex;
+    margin-top: 3vh;
+  }
+
   .mobile-bigger {
     font-size: 2rem;
   }
   #mobile-personal-info {
-    background-color: rgba(0, 0, 0, 0.116);
     font-size: 1.3rem;
     font-family: "Lacquer", cursive;
     font-weight: bolder;
@@ -20,13 +24,11 @@
     margin-right: 4vw;
   }
   .about-me-mobile-info {
-    background-color: rgba(0, 0, 0, 0.24);
   }
   .about-me-mobile-button {
     display: grid;
     grid-template-columns: 4fr 1fr;
 
-    border-top-left-radius: 20px;
     border-left: 4px solid rgb(60, 93, 204);
     color: rgb(54, 139, 209);
     padding-left: 0.5vw;
@@ -39,11 +41,70 @@
       rgba(255, 255, 255, 0.158)
     );
     text-shadow: 2px 2px rgba(0, 0, 0, 0.493);
+    height: 6vh;
+  }
+  #about-me-mobile-skill,
+  #about-me-mobile-education,
+  #about-me-mobile-workexp,
+  #about-me-mobile-hobby {
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
   }
   .about-me-mobile-arrow {
     margin-left: auto;
     margin-right: 4vw;
     margin-top: auto;
     margin-bottom: auto;
+  }
+  .about-me-mobile-pages {
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.24);
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+  }
+  .about-me-mobile-skill-category {
+    font-size: 2rem;
+    margin-top: auto;
+    margin-bottom: auto;
+    color: white;
+    font-family: "Righteous", cursive;
+  }
+  #about-me-mobile-content-0,
+  #about-me-mobile-content-1,
+  #about-me-mobile-content-2,
+  #about-me-mobile-content-3 {
+    display: none;
+    overflow-y: auto;
+    height: 33vh;
+    margin-left: 3vw;
+    margin-right: 3vw;
+  }
+  .about-me-mobile-details {
+    color: white;
+    font-family: "Righteous", cursive;
+  }
+  .m-institution {
+    text-align: left;
+    font-size: 1.5rem;
+  }
+  .m-duration {
+    text-align: right;
+    font-size: 1.3rem;
+  }
+  .m-study {
+    text-align: left;
+    font-size: 1.3rem;
+  }
+  .m-border-bot {
+    border-bottom: 3px solid white;
+  }
+  .about-me-mobile-interest-box {
+    width: 80vw;
+    height: 80vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1vh;
+    margin-top: 1vh;
   }
 }
