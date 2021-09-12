@@ -21,6 +21,10 @@ body {
 }
 /* Desktop formatting */
 @media only screen and (min-width: 861px) {
+  #index-screen {
+    display: none;
+  }
+
   #navbar {
     display: grid;
     grid-template-columns: 3fr 6fr 4fr;
@@ -76,6 +80,16 @@ body {
 /* Mobile formatting */
 
 @media only screen and (max-width: 860px) {
+  #index-screen {
+    z-index: 2;
+    position: absolute;
+    top: 10vh;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(31, 115, 212);
+    filter: opacity(0);
+  }
   #navbar {
     display: grid;
     grid-template-columns: 20vw 80vw;
@@ -89,7 +103,7 @@ body {
   #navbar-navigation-buttons {
     display: grid;
     grid-template-rows: 10vh 10vh 10vh 10vh 10vh;
-    z-index: 2;
+    z-index: 3;
     width: 100vw;
     grid-column: 1;
     grid-row: 1;
@@ -98,8 +112,8 @@ body {
   }
   #title {
     grid-column: 2;
-    margin-top: auto;
-    margin-bottom: auto;
+    margin-top: 2vh;
+
     text-align: right;
     padding-top: 1vh;
     padding-bottom: 1vh;

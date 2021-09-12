@@ -1,0 +1,13 @@
+.contact-mobile-social-holder {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  margin: 3vh;
+  color: white;
+  font-family: "Righteous", cursive;
+  font-size: 1.3rem;
+}
+.contact-mobile-social-holder span {
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 2vw;
+}

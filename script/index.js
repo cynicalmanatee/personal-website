@@ -71,12 +71,14 @@ $("document").ready(function () {
     if ($(window).width() <= 860) {
       $("#navbar-navigation-buttons").css("display", "grid");
       $("#outside-hamburger").css("display", "none");
+      $("#index-screen").css("filter", "opacity(0.6)");
     }
   }
   function hideHamburger() {
     if ($(window).width() <= 860) {
       $("#outside-hamburger").css("display", "block");
       $("#navbar-navigation-buttons").css("display", "none");
+      $("#index-screen").css("filter", "opacity(0)");
     }
   }
   hideHamburger();
