@@ -1,0 +1,124 @@
+@media only screen and (max-width: 860px) {
+  #projects-mobile-title {
+    height: 15vh;
+    display: flex;
+  }
+  #projects-mobile-title-text {
+    margin: auto;
+    color: white;
+    font-size: 2.5rem;
+    text-align: center;
+    font-family: "Press Start 2P", cursive;
+    padding-bottom: 2rem;
+  }
+  #projects-mobile-card-holder {
+    background-color: rgba(255, 255, 255, 0.527);
+    height: 140vh;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+  }
+  .projects-mobile-card-front {
+    height: 40vh;
+    width: 100%;
+
+    margin: auto;
+    background-color: rgba(8, 8, 8, 0.164);
+    display: grid;
+    grid-template-rows: 1fr 4fr;
+  }
+  .projects-mobile-card-back {
+    height: 40vh;
+    width: 100%;
+    margin: auto;
+    background-color: rgba(8, 8, 8, 0.651);
+    display: none;
+    grid-template-rows: 4fr 1fr;
+  }
+  .projects-mobile-card-info {
+    height: 32vh;
+  }
+  .projects-mobile-card-header {
+    font-size: 2rem;
+    margin: auto;
+    font-family: "Righteous", cursive;
+    color: white;
+  }
+  .projects-mobile-media-holder {
+    display: flex;
+  }
+  .projects-mobile-card-image {
+    height: 30vh;
+    margin: auto;
+  }
+  .projects-mobile-navbar {
+    height: 8vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    background-color: rgba(255, 255, 255, 0.5);
+  }
+
+  .projects-mobile-icons,
+  .projects-mobile-icons-return {
+    height: 6vh;
+    margin: auto;
+  }
+  .projects-mobile-icons:active,
+  .projects-mobile-icons-return:active {
+    filter: invert(1);
+  }
+  .projects-mobile-card-info-page {
+    display: none;
+    overflow-y: scroll;
+    color: white;
+    font-family: "Lacquer", cursive;
+    height: 100%;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  .projects-mobile-card-tech-page {
+    overflow-y: scroll;
+    display: none;
+    height: 100%;
+  }
+  .projects-mobile-card-contributor-page a,
+  .projects-mobile-card-contributor-page a:link,
+  .projects-mobile-card-contributor-page a:visited {
+    text-decoration: none;
+    color: white;
+    height: auto;
+    margin: auto;
+  }
+  .projects-mobile-card-contributor-page {
+    display: grid;
+    grid-template-rows: 12vh 6vh 6vh 6vh;
+  }
+  .projects-mobile-card-contributor-page span {
+    font-size: 2rem;
+    margin: auto;
+  }
+  .projects-mobile-techstack-category {
+    font-size: 2rem;
+    margin-top: auto;
+    margin-bottom: auto;
+    color: white;
+    font-family: "Righteous", cursive;
+  }
+  .mobile-icon-container {
+    width: 100vw;
+    margin-top: auto;
+    margin-bottom: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .mobile-icon {
+    height: 7vh;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+  }
+  .projects-mobile-tech-title {
+    font-family: "Righteous", cursive;
+    font-size: 2rem;
+    text-align: right;
+    color: white;
+  }
+}

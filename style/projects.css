@@ -14,12 +14,6 @@
   text-align: center;
   color: white;
   text-decoration: underline 3px solid white;
-
-  -webkit-user-select: none;
-  -khtml-user-select: none;
-  -moz-user-select: none;
-  -o-user-select: none;
-  user-select: none;
 }
 .projects-card {
   width: 80vw;
@@ -164,4 +158,8 @@
   color: rgb(163, 163, 163);
   margin: 2%;
   padding-left: 15%;
+}
+@media only screen and (min-width: 861px) {
+}
+@media only screen and (max-width: 860px) {
 }

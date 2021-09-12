@@ -1,0 +1,49 @@
+@media only screen and (max-width: 860px) {
+  #about-me-section {
+    display: none;
+  }
+
+  .mobile-bigger {
+    font-size: 2rem;
+  }
+  #mobile-personal-info {
+    background-color: rgba(0, 0, 0, 0.116);
+    font-size: 1.3rem;
+    font-family: "Lacquer", cursive;
+    font-weight: bolder;
+    color: white;
+    text-align: justify;
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.493);
+  }
+  #mobile-personal-info p {
+    margin-left: 4vw;
+    margin-right: 4vw;
+  }
+  .about-me-mobile-info {
+    background-color: rgba(0, 0, 0, 0.24);
+  }
+  .about-me-mobile-button {
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+
+    border-top-left-radius: 20px;
+    border-left: 4px solid rgb(60, 93, 204);
+    color: rgb(54, 139, 209);
+    padding-left: 0.5vw;
+    font-family: "Righteous", cursive;
+    font-size: 2rem;
+    background-image: linear-gradient(
+      to right,
+      rgb(214, 240, 255),
+      rgb(214, 240, 255),
+      rgba(255, 255, 255, 0.158)
+    );
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.493);
+  }
+  .about-me-mobile-arrow {
+    margin-left: auto;
+    margin-right: 4vw;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+}

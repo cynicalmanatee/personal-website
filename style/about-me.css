@@ -1,8 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Lacquer&display=swap");
 #about-me-section {
-  margin-left: 5vw;
-  margin-right: 5vw;
   display: none;
 }
 #profile-picture {
@@ -13,6 +9,8 @@
   display: grid;
   margin-top: 5vh;
   grid-template-columns: 40% 60%;
+  margin-left: 5vw;
+  margin-right: 5vw;
 }
 #personal-info {
   font-size: 2rem;
@@ -42,7 +40,9 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   height: 10vh;
-  width: 100%;
+  width: 89vw;
+  margin-left: 5vw;
+  margin-right: 5vw;
 }
 .about-me-button {
   display: flex;
@@ -81,6 +81,8 @@
 
 .about-me-section-info {
   display: none;
+  margin-left: 5vw;
+  margin-right: 5vw;
 }
 #about-me-section-skill {
   height: 70vh;
